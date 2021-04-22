@@ -18,8 +18,8 @@ namespace ER
         static public string Resp3 { get; set; }
         static public string Resp4 { get; set; }
         static public string Resp5 { get; set; }
-        static public string Correctos { get; set; }
-        static public string Incorrectos { get; set; }
-        static public string Puntaje { get; set; }
+        static public int Correctos { get; set; }
+        static public int Incorrectos { get; set; }
+        static public int Puntaje { get; set; }
     }
 }

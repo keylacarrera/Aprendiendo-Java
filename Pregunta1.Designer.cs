@@ -36,6 +36,7 @@
             this.txtVar1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -113,11 +114,19 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "Condición If";
             // 
+            // listBox1
+            // 
+            this.listBox1.Location = new System.Drawing.Point(340, 123);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(146, 95);
+            this.listBox1.TabIndex = 0;
+            // 
             // Pregunta1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(389, 332);
+            this.ClientSize = new System.Drawing.Size(498, 332);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtVar1);
@@ -144,5 +153,6 @@
         private System.Windows.Forms.TextBox txtVar1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }

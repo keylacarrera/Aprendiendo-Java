@@ -109,9 +109,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Modulo1.Designer.vb" />
-    <Content Include="Modulo1.vb">
-      <SubType>Form</SubType>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

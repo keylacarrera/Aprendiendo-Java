@@ -25,7 +25,7 @@ namespace ER
                 Datos.Preg3 = label5.Text;
                 Datos.Resp3 = txtCond2.Text;
                 Datos.Preg4 = label3.Text;
-                Datos.Resp3 = txtFor1.Text;
+                Datos.Resp4 = txtFor1.Text;
                 /* _Pregunta3 pre3 = new _Pregunta3();
                  pre3.Show();
                  this.Hide();*/
