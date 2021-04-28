@@ -19,14 +19,14 @@ namespace ER
         }
         private void llenarLista()
         {
-            listView1.Items.Add("Pregunta 1:  " + Datos.Preg1);
-            listView1.Items.Add("Respuesta:   " + Datos.Resp1);
-            listView1.Items.Add("Pregunta 2:  " + Datos.Preg2);
-            listView1.Items.Add("Respuesta:   " + Datos.Resp2);
-            listView1.Items.Add("Pregunta 3:  " + Datos.Preg3);
-            listView1.Items.Add("Respuesta:   " + Datos.Resp3);
-            listView1.Items.Add("Pregunta 4:  " + Datos.Preg4);
-            listView1.Items.Add("Respuesta:   " + Datos.Resp4);
+            listView1.Items.Add("Pregunta 1: " + Datos.PregA);
+            listView1.Items.Add("Especificador de acceso: " + Datos.Resp1A);
+            listView1.Items.Add("Tipo de dato: " + Datos.Resp2A);
+            listView1.Items.Add("Variables:   " + Datos.Resp3A);
+            listView1.Items.Add("Cantidad de variables:  " + Datos.NumPal);
+            //listView1.Items.Add("Respuesta:   " + Datos.Resp3);
+            //listView1.Items.Add("Pregunta 4:  " + Datos.Preg4);
+            //listView1.Items.Add("Respuesta:   " + Datos.Resp4);
         }
         private void Preguntas_Load(object sender, EventArgs e)
         {

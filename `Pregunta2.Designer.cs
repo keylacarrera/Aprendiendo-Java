@@ -56,7 +56,7 @@
             this.btnValidar.TabIndex = 9;
             this.btnValidar.Text = "Validar";
             this.btnValidar.UseVisualStyleBackColor = true;
-            this.btnValidar.Click += new System.EventHandler(this.btnValidar_Click);
+       //     this.btnValidar.Click += new System.EventHandler(this.btnValidar_Click);
             // 
             // label4
             // 

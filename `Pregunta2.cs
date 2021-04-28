@@ -17,8 +17,8 @@ namespace ER
             InitializeComponent();
             CenterToScreen();
         }
-        private void btnValidar_Click(object sender, EventArgs e)
-        {
+      /* private void btnValidar_Click(object sender, EventArgs e)
+       {
 
             if (txtCond2.Text != "" && txtFor1.Text != "")
             {
@@ -26,9 +26,9 @@ namespace ER
                 Datos.Resp3 = txtCond2.Text;
                 Datos.Preg4 = label3.Text;
                 Datos.Resp4 = txtFor1.Text;
-                /* _Pregunta3 pre3 = new _Pregunta3();
+                _Pregunta3 pre3 = new _Pregunta3();
                  pre3.Show();
-                 this.Hide();*/
+                 this.Hide();
                 MessageBox.Show("Preguntas completadas.");
                 Resultados re = new Resultados();
                 re.Show();
@@ -38,7 +38,7 @@ namespace ER
             {
                 MessageBox.Show("Complete las preguntas.");
             }
-        }
+         }*/
 
         private void lb1_Click(object sender, EventArgs e)
         {
